@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body class="wrapper">
+    <header class="header">
+        <!--begin header -->
+        <div class="menu" onclick="opennav()">
+            &#9776
+            <span>Menu</span>
+        </div>
+
+        <div class="logo">
+            LIQUID
+        </div>
+    </header>
+    <!--end header-->
+    <nav class="nav">
+        <!--begin nav-->
+        <h3 class="nav__heading">LIQUID</h3>
+        <hr>
+        <a href="#">Introduction </a>
+        <a href="#">Operations </a>
+        <a href="#">Tags </a>
+        <a href="#">Whitespace </a>
+        <a href="#">Variations </a>
+        <a href="#">Variables </a>
+        <a href="#">Output </a>
+        <a href="#">Whitespace </a>
+        <a href="#">Variations </a>
+        <a href="#">Variables </a>
+        <a href="#">Output </a>
+        <a href="#">Variations </a>
+        <a href="#">Variables </a>
+        <a href="#">Output </a>
+    </nav>
+
+    <!--endnav-->
+    <main class="container">
+
+        <h3>Introduction</h3>
+        <p>Liquid code can be categorized into 
+            <strong class="keyword">objects</strong>, 
+            <strong class="keyword">tags</strong>,
+            and <strong class="keyword">filters</strong>.</p>
+        <h3>Objects</h3>
+        <p>
+Objects tell Liquid where to show content on a page. Objects and variable names are denoted by double curly braces 
+  <span class="highlight">{{</span>  and <span class="highlight">}}</span>
+        </p>
+
+        <div class="input">
+            <p>
+             <span class="input__heading">Input</span>
+<span class="input__text"> {{ page.title }}</span>
+
+            </p>
+
+        </div>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
